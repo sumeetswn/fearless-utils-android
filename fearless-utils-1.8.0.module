@@ -1,0 +1,193 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "fearless-utils-android",
+    "module": "fearless-utils",
+    "version": "1.8.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fearless-utils-1.8.0.aar",
+          "url": "fearless-utils-1.8.0.aar",
+          "size": 2537795,
+          "sha512": "2d2fe43f5d0eb098f5441c32dd6fbc8244a14307f4b8a1e93bfc8520da3419aa2ec92af12044de2fc0c40a46fce280068be6941d0fd4e5c99ca22c895cacc240",
+          "sha256": "642139fab14ae3845266364cc6227503ef1799cdab8f4816ac6a135d1189dbf9",
+          "sha1": "36182b0b473932b8ec3d03b4f95c693f8f9455d9",
+          "md5": "5d0b5989b597c9928050380af7620191"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.65"
+          }
+        },
+        {
+          "group": "net.i2p.crypto",
+          "module": "eddsa",
+          "version": {
+            "requires": "0.3.0"
+          }
+        },
+        {
+          "group": "com.caverock",
+          "module": "androidsvg-aar",
+          "version": {
+            "requires": "1.4"
+          }
+        },
+        {
+          "group": "io.github.novacrypto",
+          "module": "BIP39",
+          "version": {
+            "requires": "2019.01.27"
+          }
+        },
+        {
+          "group": "io.github.novacrypto",
+          "module": "securestring",
+          "version": {
+            "requires": "2019.01.27"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "securestring",
+              "type": "jar",
+              "extension": "jar"
+            }
+          }
+        },
+        {
+          "group": "com.neovisionaries",
+          "module": "nv-websocket-client",
+          "version": {
+            "requires": "2.14"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "org.web3j",
+          "module": "crypto",
+          "version": {
+            "requires": "4.8.0"
+          }
+        },
+        {
+          "group": "org.eclipse.birt.runtime.3_7_1",
+          "module": "org.apache.xerces",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "org.lz4",
+          "module": "lz4-java",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.5.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fearless-utils-1.8.0.aar",
+          "url": "fearless-utils-1.8.0.aar",
+          "size": 2537795,
+          "sha512": "2d2fe43f5d0eb098f5441c32dd6fbc8244a14307f4b8a1e93bfc8520da3419aa2ec92af12044de2fc0c40a46fce280068be6941d0fd4e5c99ca22c895cacc240",
+          "sha256": "642139fab14ae3845266364cc6227503ef1799cdab8f4816ac6a135d1189dbf9",
+          "sha1": "36182b0b473932b8ec3d03b4f95c693f8f9455d9",
+          "md5": "5d0b5989b597c9928050380af7620191"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "fearless-utils-1.8.0-sources.jar",
+          "url": "fearless-utils-1.8.0-sources.jar",
+          "size": 322247,
+          "sha512": "58219a31f31d2e7fbed734be4aeda01c348652664231d93e3be8d6f498e432e0d90fec084bad52d405e1a343d0079ff6d0b5f78d0e03a2fc661b94530cc3e390",
+          "sha256": "18cb3d6284c4067be6bf7c411a8bf8e63c8b83f6016dc978d374fe8b517a81ab",
+          "sha1": "72cc89344a6b2b9ff6c6275013b9c84aa4bb4d75",
+          "md5": "66cdb448bad35d4f9ee93a70e31558cb"
+        }
+      ]
+    }
+  ]
+}
