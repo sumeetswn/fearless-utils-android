@@ -1,4 +1,5 @@
 install:
+  - mvn install:install-file -Dfile=polkaj-scale-0.2.3.jar -DgroupId=io.emeraldpay.polkaj -DartifactId=scale -Dversion=0.2.3 -Dpackaging=jar
   - mvn install:install-file -Dfile=fearless-utils-1.8.0.aar -DgroupId=fearless-utils-android -DartifactId=fearless-utils -Dversion=1.8.0 -Dpackaging=aar -DpomFile=fearless-utils-1.8.0.pom.xml
   - mvn install:install-file -Dfile=fearless-utils-1.8.0-sources.jar -DgroupId=fearless-utils-android -DartifactId=fearless-utils -Dversion=1.8.0 -Dpackaging=jar -Dclassifier=sources
   - mvn install:install-file -Dfile=fearless-utils-1.8.0.jar -DgroupId=fearless-utils-android -DartifactId=fearless-utils -Dversion=1.8.0 -Dpackaging=jar
