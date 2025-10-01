@@ -10,7 +10,6 @@
   <groupId>fearless-utils-android</groupId>
   <artifactId>fearless-utils</artifactId>
   <version>1.8.0</version>
-  <packaging>aar</packaging>
   <dependencies>
     <dependency>
       <groupId>org.jetbrains.kotlin</groupId>
